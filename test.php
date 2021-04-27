@@ -4,6 +4,7 @@ require_once 'src/autoload.php';
 
 $fauna = new FaunaPhp();
 
-$out = $fauna->connectDB("Damn Nice");
+$fauna->connectFauna("DamnNice");
+$out = $fauna->createCollection("Perfect");
 echo $out;
 ?>

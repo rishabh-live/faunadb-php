@@ -10,7 +10,7 @@ async function run() {
     try {
 
         var result = await client.query(
-            q.CreateCollection({ name: args[1] })
+            q.CreateDatabase({ name: args[1] })
         );
         console.log(result)
     } catch (e) {

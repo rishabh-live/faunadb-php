@@ -1,6 +1,6 @@
 <?php
 
-require_once 'src/autoload.php';
+require_once 'FaunaPhp/autoload.php';
 require_once './secrets-local.php';
 
 $fauna = new FaunaPhp();

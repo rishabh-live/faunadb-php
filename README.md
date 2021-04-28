@@ -12,7 +12,7 @@
 1. Downlaod the file and extarct in the project directory.
 2. To start with just include these line in the begining of the file. 
 ```php
-require_once 'src/autoload.php';
+require_once 'FaunaPhp/autoload.php';
 
 $fauna = new FaunaPhp();
 // Your commnd goes here
